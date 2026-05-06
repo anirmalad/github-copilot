@@ -108,6 +108,44 @@ button:hover {
   background-color: #3949ab;
 }
 
+.participants-btn {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.participants-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style: disc inside;
+}
+
+.participants-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.participants-list .participant-email {
+  overflow-wrap: anywhere;
+}
+
+.unregister-btn {
+  background-color: #c62828;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.unregister-btn:hover {
+  background-color: #ad1457;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
